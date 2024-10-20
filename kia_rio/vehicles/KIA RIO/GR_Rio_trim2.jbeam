@@ -1,0 +1,20 @@
+{
+"GR_Rio_trim2": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trim",
+        "value":180,
+    },
+    "slotType" : "GR_Rio_trim",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_trim2_body", ["GR_Rio_body"]],
+         ["GR_Rio_trim2_fender_R", ["GR_Rio_fender_R"]],
+         ["GR_Rio_trim2_fender_L", ["GR_Rio_fender_L"]],
+         ["GR_Rio_trim2_door_FR", ["GR_Rio_door_FR"]],
+         ["GR_Rio_trim2_door_FL", ["GR_Rio_door_FL"]],
+         ["GR_Rio_trim2_door_RR", ["GR_Rio_door_RR"]],
+         ["GR_Rio_trim2_door_RL", ["GR_Rio_door_RL"]],
+    ],
+},
+}

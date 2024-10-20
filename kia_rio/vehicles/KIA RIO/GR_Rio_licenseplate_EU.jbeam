@@ -1,0 +1,45 @@
+{
+"GR_Rio_licenseplate_F_EU": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front EU License Plate",
+        "value":0,
+    },
+    "slotType" : "GR_Rio_licenseplate_F",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMateRiols"],
+         ["licenseplate-f", ["GR_Rio_bumper_F","GR_Rio_bumper_F"],[],{"pos":{"x":0.0, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+		 ["licenseplate-f", ["GR_Rio_bumper_F2","GR_Rio_bumper_F2"],[],{"pos":{"x":0.0, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+		 ["licenseplate-f", ["Black_Rio_bumper_F","Black_Rio_bumper_F"],[],{"pos":{"x":0.0, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"GR_Rio_licenseplate_R_EU": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear EU License Plate",
+        "value":0,
+    },
+    "slotType" : "GR_Rio_licenseplate_R",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMateRiols"],
+         ["licenseplate-r", ["GR_Rio_trunk"],[],{"pos":{"x":0.0, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+"GR_Rio_licenseplate_F_alt_EU": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Side Mounted EU Front License Plate",
+        "value":0,
+    },
+    "slotType" : "GR_Rio_licenseplate_F",
+    "licenseplateFormat": "52-11",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMateRiols"],
+         ["licenseplate-f", ["GR_Rio_bumper_F","GR_Rio_bumper_F"],[],{"pos":{"x":0.0, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+		 ["licenseplate-f", ["GR_Rio_bumper_F2","GR_Rio_bumper_F2"],[],{"pos":{"x":0.0, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+		 ["licenseplate-f", ["Black_Rio_bumper_F","Black_Rio_bumper_F"],[],{"pos":{"x":0.0, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":1, "y":1, "z":1}}],
+    ],
+},
+}

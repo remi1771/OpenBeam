@@ -1,0 +1,272 @@
+{
+"GR_Rio_transmission_7DCT": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"7-Speed AMG SPEEDSHIFT MCT Transmission",
+        "value":2800,
+    },
+    "slotType": "GR_Rio_transmission 2",
+    "slots": [
+        ["type", "default", "description"],
+        ["GR_Rio_transfer_case","GR_Rio_transfer_case_RWD", "Transfer Case"],
+    ],
+    "powertrain": [
+        ["type", "name", "inputName", "inputIndex"],
+        ["dctGearbox", "gearbox", "mainEngine", 1],
+    ],
+    "gearbox": {
+        "uiName":"Gearbox",
+        "gearRatios":[-3.30, 0, 4.806, 2.593, 1.707, 1.277, 1.0, 0.844, 0.671],
+        "parkLockTorque":2000,
+        "friction": 1.24,
+        "dynamicFriction": 0.0012,
+        "torqueLossCoef": 0.0155,
+        "additionalEngineInertia":0.02,
+        "gearboxNode:":["tra1"],
+
+        "gearWhineCoefsInput":  [0.60, 0.00, 0.13, 0.13, 0.13, 0.13, 0.13, 0.13, 0.13],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>helical_01>twine_in_tuned",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>helical_01>twine_out_tuned",
+    },
+    "vehicleController": {
+        "automaticModes":"PRNDSM",
+        "calculateOptimalLoadShiftPoints": true,
+        "shiftDownRPMOffsetCoef":1.15,
+        "transmissionGearChangeDelay":0.25,
+        "aggressionHoldOffThrottleDelay":2.5,
+        "aggressionSmoothingUp":2,
+        "aggressionSmoothingDown":0.15,
+        "gearboxDecisionSmoothingUp":2,
+        "gearboxDecisionSmoothingDown":2,
+        "lowShiftDownRPM":1300,
+        "lowShiftUpRPM":2100,
+        "clutchLaunchStartRPM": 2000,
+        "clutchLaunchTargetRPM": 2500,
+        "dctClutchTime": 0.025
+    },
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["GR_Rio_transmission", ["GR_Rio_engine","GR_Rio_transmission"],[]{"pos":{"x":0,"y":0,"z":0}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--7 Speed Auto--
+         {"selfCollision":false},
+         {"collision":true},
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"group":"GR_Rio_transmission"},
+         {"nodeWeight":42},
+         ["tra1", 0.0, -0.36, 0.33],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--TRANSMISSION CONE--
+          {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":15001000,"beamDamp":500},
+          {"beamDeform":250000,"beamStrength":"FLT_MAX"},
+          ["tra1","e1r"],
+          ["tra1","e1l"],
+          ["tra1","e3r"],
+          ["tra1","e3l"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"GR_Rio_converter": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Locking Torque Converter",
+        "value":150,
+    },
+    "slotType" : "GR_Rio_converter",
+    "torqueConverter": {
+        "uiName":"Torque Converter",
+        "converterDiameter": 0.295,
+        "converterStiffness":10,
+        "couplingAVRatio":0.9,
+        "stallTorqueRatio":1.8,
+        "lockupClutchTorque":540,
+        "additionalEngineInertia":0.14,
+    },
+    "vehicleController": {
+        "torqueConverterLockupRPM":1300,
+        "torqueConverterLockupMinGear":2,
+    },
+},
+"GR_Rio_converter_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Heavy Duty Locking Torque Converter",
+        "value":240,
+    },
+    "slotType" : "GR_Rio_converter",
+    "torqueConverter": {
+        "uiName":"Torque Converter",
+        "converterDiameter": 0.302,
+        "converterStiffness":11,
+        "couplingAVRatio":0.91,
+        "stallTorqueRatio":1.78,
+        "lockupClutchTorque":825,
+        "additionalEngineInertia":0.16,
+    },
+    "vehicleController": {
+        "torqueConverterLockupRPM":1300,
+        "torqueConverterLockupMinGear":2,
+    },
+},
+"GR_Rio_converter_diesel": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Diesel Locking Torque Converter",
+        "value":110,
+    },
+    "slotType" : "GR_Rio_converter",
+    "torqueConverter": {
+        "uiName":"Torque Converter",
+        "converterDiameter": 0.31,
+        "converterStiffness":12,
+        "couplingAVRatio":0.92,
+        "stallTorqueRatio":1.7,
+        "lockupClutchTorque":500,
+        "additionalEngineInertia":0.14,
+    },
+    "vehicleController": {
+        "torqueConverterLockupRPM":1300,
+        "torqueConverterLockupMinGear":2,
+    },
+},
+"GR_Rio_flywheel": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Flywheel",
+        "value":150,
+    },
+    "slotType" : "GR_Rio_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.10,
+        "clutchMass":5,
+    },
+},
+"GR_Rio_flywheel_heavy": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Heavy Flywheel",
+        "value":150,
+    },
+    "slotType" : "GR_Rio_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.12,
+        "clutchMass":6,
+    },
+},
+"GR_Rio_flywheel_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Ultra Light Flywheel",
+        "value":700,
+    },
+    "slotType" : "GR_Rio_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.02,
+        "clutchMass":3.5,
+    },
+},
+"GR_Rio_flywheel_sport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sport Flywheel",
+        "value":400,
+    },
+    "slotType" : "GR_Rio_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.07,
+        "clutchMass":4.25,
+    },
+},
+"GR_Rio_transfer_case_RWD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"RWD Transfer Case",
+        "value":300,
+    },
+    "slotType" : "GR_Rio_transfer_case",
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["shaft", "transfercase", "gearbox", 1, {"friction":0.2, "dynamicFriction":0.00018, "uiName":"Rear Output Shaft"}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--tcase weight--
+         {"selfCollision":false},
+         {"collision":false},
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"group":"GR_Rio_transmission"},
+         {"nodeWeight":20},
+         ["tcase", 0.13, -0.43, 0.33],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":1500600,"beamDamp":60},
+          {"beamDeform":30000,"beamStrength":"FLT_MAX"},
+          ["tcase","e1r"],
+          ["tcase","e3r"],
+          ["tcase","e1l"],
+          ["tcase","e3l"],
+          ["tcase","tra1"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"GR_Rio_transfer_case_AWD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"AWD Transfer Case",
+        "value":1650,
+    },
+    "slotType" : "GR_Rio_transfer_case",
+    "controller": [
+        ["fileName"],
+        ["drivingDynamics/actuators/electronicSplitShaftLock" {"name": "electronicSplitShaftLock", "splitShaftName":"transfercase"}]
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["splitShaft", "transfercase", "gearbox", 1, {"splitType":"locked", "primaryOutputID":1, "lockTorque":3000, "friction":0.35, "dynamicFriction":0.00039, "torqueLossCoef":0.012, "uiName":"Electrically Clutched Torque Splitter","defaultVirtualInertia":0.1}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["GR_Rio_transfercase", ["GR_Rio_transmission","GR_Rio_engine"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--tcase weight--
+         {"selfCollision":false},
+         {"collision":false},
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"group":"GR_Rio_transmission"},
+         {"nodeWeight":36},
+         ["tcase", 0.13, -0.43, 0.33],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":1500600,"beamDamp":60},
+          {"beamDeform":30000,"beamStrength":"FLT_MAX"},
+          ["tcase","e1r"],
+          ["tcase","e3r"],
+          ["tcase","e1l"],
+          ["tcase","e3l"],
+          ["tcase","tra1"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+}

@@ -1,0 +1,633 @@
+{
+  "GrMM_Stop_on": {
+    "name": "GrMM_Stop_on",
+    "mapTo": "GrMM_Stop_on",
+    "class": "Material",
+    "persistentId": "02efcf39-f9e5-4099-8a6d-1677af961082",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/Pallete1.png",
+        "emissive": true,
+        "emissiveFactor": [
+          55.0980415,
+          55.0980415,
+          55.0980415
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/PBR/Pallete1.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "GrMM_zada_hod_on": {
+    "name": "GrMM_zada_hod_on",
+    "mapTo": "GrMM_zada_hod_on",
+    "class": "Material",
+    "persistentId": "02efcf39-f9e5-4099-8a6d-1677af961082",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": [
+          55.0980415,
+          55.0980415,
+          55.0980415
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/PBR/main_r.data.dds",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Grm_Povorot_L_on": {
+    "name": "Grm_Povorot_L_on",
+    "mapTo": "Grm_Povorot_L_on",
+    "class": "Material",
+    "persistentId": "33414358-56f4-4e44-9c46-024fd8de149e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/Pallete1.png",
+        "emissive": true,
+        "emissiveFactor": [
+          55.0980415,
+          55.0980415,
+          55.0980415
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/TXT/orange.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Grm_Povorot__R_on": {
+    "name": "Grm_Povorot__R_on",
+    "mapTo": "Grm_Povorot__R_on",
+    "class": "Material",
+    "persistentId": "02efcf39-f9e5-4099-8a6d-1677af961082",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/Pallete1.png",
+        "emissive": true,
+        "emissiveFactor": [
+          55.0980415,
+          55.0980415,
+          55.0980415
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/TXT/orange.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Grmm_BLIJ_on": {
+    "name": "Grmm_BLIJ_on",
+    "mapTo": "Grmm_BLIJ_on",
+    "class": "Material",
+    "persistentId": "525a65b1-36aa-418c-9d42-c2483e94b052",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/main_b.color.png",
+        "emissive": true,
+        "emissiveFactor": [
+          54.9254951,
+          38.8750954,
+          24.4196091
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/PBR/main_b.color.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Orange_Frara_R_on": {
+    "name": "Orange_Frara_R_on",
+    "mapTo": "Orange_Frara_R_on",
+    "class": "Material",
+    "persistentId": "33414358-56f4-4e44-9c46-024fd8de149e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/Pallete1.png",
+        "emissive": true,
+        "emissiveFactor": [
+          55.0980415,
+          55.0980415,
+          55.0980415
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/TXT/orange.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Orange_fara_L_on": {
+    "name": "Orange_fara_L_on",
+    "mapTo": "Orange_fara_L_on",
+    "class": "Material",
+    "persistentId": "33414358-56f4-4e44-9c46-024fd8de149e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/Pallete1.png",
+        "emissive": true,
+        "emissiveFactor": [
+          55.0980415,
+          55.0980415,
+          55.0980415
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/TXT/orange.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "Tum_ria_on": {
+    "name": "Tum_ria_on",
+    "mapTo": "Tum_ria_on",
+    "class": "Material",
+    "persistentId": "02efcf39-f9e5-4099-8a6d-1677af961082",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "baseColorFactor": [
+          0.999989986,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "clearCoatMap": "/vehicles/KIA RIO/PBR/main_m.data.dds",
+        "emissive": true,
+        "emissiveFactor": [
+          100.000008,
+          75.6970596,
+          56.2705917
+        ],
+        "emissiveMap": "/vehicles/KIA RIO/TXT/2122.png",
+        "glow": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "normalMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMap": "/vehicles/KIA RIO/PBR/null.dds"
+      },
+      {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.25
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "emissive": true,
+        "emissiveFactor": null,
+        "glow": true,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": 0.607767701
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissive": null,
+        "emissiveFactor": null,
+        "glow": null,
+        "metallicFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "rio_engine": {
+    "name": "rio_engine",
+    "mapTo": "rio_engine",
+    "class": "Material",
+    "persistentId": "3e78f5e8-1b3f-4b22-83a6-53a634428b55",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.373124003,
+          0.373120993,
+          0.373120993,
+          1
+        ],
+        "baseColorMap": "/vehicles/KIA RIO/PBR/null.dds",
+        "metallicFactor": 0.597000003,
+        "normalMapStrength": 5,
+        "opacityFactor": 0.888000011,
+        "roughnessFactor": 0.31099999,
+        "specular": [
+          0.000976561976,
+          0.000976561976,
+          0.000976561976,
+          1
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "normalMapStrength": null,
+        "opacityFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "normalMapStrength": null,
+        "opacityFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "normalMapStrength": null,
+        "opacityFactor": null,
+        "roughnessFactor": null,
+        "specular": null
+      }
+    ],
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

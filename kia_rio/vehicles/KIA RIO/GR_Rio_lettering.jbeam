@@ -1,0 +1,142 @@
+{
+"GR_Rio_lettering": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+    ],
+},
+"GR_Rio_lettering_DX": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"DX Trunk Lettering",
+        "value":50,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_1.8", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_DX", ["GR_Rio_trunk"]],
+    ],
+},
+"GR_Rio_lettering_LX": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"LX Trunk Lettering",
+        "value":70,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_2.0" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_LX", ["GR_Rio_trunk"]],
+
+    ],
+},
+"GR_Rio_lettering_HX": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"HX Trunk Lettering",
+        "value":80,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_1.8" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_HX", ["GR_Rio_trunk"]],
+
+    ],
+},
+"GR_Rio_lettering_ZX": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"ZX Trunk Lettering",
+        "value":90,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_2.0" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_ZX", ["GR_Rio_trunk"]],
+
+    ],
+},
+"GR_Rio_lettering_ZX_4ws": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"ZX AWS Trunk Lettering",
+        "value":90,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_2.0" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_ZX", ["GR_Rio_trunk"],[],{"pos":{"x":0.07,"y":0.0045,"z":0}}],
+         ["GR_Rio_lettering_4ws", ["GR_Rio_trunk"]],
+
+    ],
+},
+"GR_Rio_lettering_GTz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"GTz Trunk Lettering",
+        "value":120,
+    },
+    "slotType" : "GR_Rio_lettering_trunk",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_lettering_trunk", ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_2.0" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_turbo" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_4wd" ["GR_Rio_trunk"]],
+         ["GR_Rio_lettering_GTz", ["GR_Rio_trunk"]],
+
+    ],
+},
+"GR_Rio_logo_F": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Ibishu Logo",
+        "value":50,
+    },
+    "slotType" : "GR_Rio_logo_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_logo_F", ["GR_Rio_hood"]],
+    ],
+},
+"GR_Rio_logo_F_grille": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Ibishu Logo",
+        "value":50,
+    },
+    "slotType" : "GR_Rio_logo_F_grille",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_logo_F_grille", ["GR_Rio_grille"]],
+    ],
+},
+"GR_Rio_logo_F_grille_aero": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Ibishu Logo",
+        "value":70,
+    },
+    "slotType" : "GR_Rio_logo_F_grille_aero",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["GR_Rio_logo_F_grille_aero", ["GR_Rio_grille"]],
+    ],
+},
+}
